@@ -18,13 +18,31 @@ body {
 /* GENERAL COMPONENTS */
 /* ************************************* */
 
-.heading-primary {
-  font-size: 5.1rem;
+.heading-primary,.heading-secondary{
   font-weight: 700;
-  line-height: 1;
   color: #333;
   letter-spacing: -0.5px;
+
+}
+.heading-primary {
+  font-size: 5.1rem;
+  line-height: 1;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary{
+  font-size: 4.1rem;
+  margin-bottom: 9.6rem;
+}
+
+.subheading{
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .btn:link, .btn:visited {
@@ -71,7 +89,7 @@ body {
 }
 
 .container{
-  max-width: 120rem;
+  max-width: 95rem;
   margin: 0 auto;
   padding:0 3.2rem
 }
@@ -221,5 +239,7 @@ body {
 /* ************************************* */
 .section-how{
   padding: 9.6rem 0;
-  background-color: orangered;
+}
+.step-img{
+  width: 50%;
 }
